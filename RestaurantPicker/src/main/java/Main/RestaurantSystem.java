@@ -28,7 +28,9 @@ public class RestaurantSystem {
 			System.out.println(faveFood);
 			faveTypeOfFood = "Curry";
 			return faveFood;
-		}
+		} else {
+			faveFood = "Error";
+			System.out.println("Error");
 		return faveFood;
 	}
 
