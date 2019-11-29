@@ -64,7 +64,7 @@ public class RestaurantTest {
 	public void ErrorTest() {
 		RestaurantSystem restaurantSystem = new RestaurantSystem();
 		String error = restaurantSystem.getFoodType("Food");
-		Assert.assertEquals("Error", error);
+		Assert.assertEquals("Error restart", error);
 		
 	
 		
