@@ -1,6 +1,12 @@
 package Main;
 
+import static org.junit.Assert.*;
+
+import org.junit.Assert;
+import org.junit.Test;
 import java.util.Scanner;
+
+import Main.RestaurantSystem;
 
 public class RestaurantRunner {
 
@@ -34,7 +40,15 @@ public class RestaurantRunner {
 				if (answer2.equals("No")) {
 					System.out.println("Goodbye");
 					break;
+				} else if (answer2.equals("Yes")) {
+					
+				} else {
+					System.out.println("Error Please Restart");
+					break;
 				}
+			} else {
+				System.out.println("Error Please Restart");
+				break;
 			}
 
 		}

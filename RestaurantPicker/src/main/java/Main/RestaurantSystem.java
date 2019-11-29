@@ -1,7 +1,6 @@
 package Main;
 
 public class RestaurantSystem {
-
 	static String faveTypeOfFood;
 
 	public static String getFoodType(String food) {
@@ -28,7 +27,7 @@ public class RestaurantSystem {
 			return faveFood;
 		} else {
 			faveFood = "Error restart";
-			System.out.println("Error");
+			System.out.println("Error please restart");
 			faveTypeOfFood = "Error";
 
 		}
