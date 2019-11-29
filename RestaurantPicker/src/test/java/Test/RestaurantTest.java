@@ -60,4 +60,13 @@ public class RestaurantTest {
 		Assert.assertEquals("Do you want to choose another food?",response2);
 		
 	}
+	@Test
+	public void ErrorTest() {
+		RestaurantSystem restaurantSystem = new RestaurantSystem();
+		String error = restaurantSystem.getFoodType("Food");
+		Assert.assertEquals("Error", error);
+		
+	
+		
+	}
 }
